@@ -2,35 +2,32 @@
 PRN 24070123120
 ENTC B2 */
 
-#include <iostream>
+#include<iostream>
 using namespace std;
-class Animal 
-{
-//base class
-public:
-    void eat() 
-    {
-        cout<<"This animal eats food."<< endl;
-    }
-};
-//Derived class
-class Dog : public Animal 
-{
-public:
-    void bark() 
-    {
-        cout << "The dog barks." << endl;
-    }
-};
-int main() 
-{
-    Dog myDog;
-    myDog.eat();   
-    myDog.bark();  
+
+class Vehicle {
+    public:
+        string brand = "Ford";
+        void color() {
+            cout << "Vehicle color is Red" << endl;
+        }
+    };
+
+    class Car: public Vehicle {
+    public:
+        string model = "Mustang";
+        void speed() {
+            cout << "Car speed is 200km/h" << endl;
+        }
+    };
+
+int main() {
+    Car myCar;
+    myCar.color();
+    myCar.speed();
     return 0;
 }
-/*
-Output:
-This animal eats food.
-The dog barks.
-*/
+
+/* OUTPUT
+ Vehicle color is Red
+ Car speed is 200km/h */
