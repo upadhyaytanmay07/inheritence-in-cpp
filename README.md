@@ -104,8 +104,12 @@ Combination of two or more types (e.g., hierarchical + multiple).
 
 This experiment demonstrates the power of inheritance in C++:
 
-♻️ Code Reusability – Base class features are reused in derived classes.
-🏗️ Extensibility – Derived classes can add new features.
-🌳 Hierarchy Modeling – Real-world relationships (University → Department → Lab) can be represented.
-⚡ Flexibility – Supports single, multilevel, hierarchical, multiple, and hybrid inheritance.
-👉 Inheritance is the foundation for polymorphism and advanced OOP design.
+Code Reusability – Base class features are reused in derived classes.
+
+Extensibility – Derived classes can add new features.
+
+Hierarchy Modeling – Real-world relationships (University → Department → Lab) can be represented.
+
+Flexibility – Supports single, multilevel, hierarchical, multiple, and hybrid inheritance.
+
+Inheritance is the foundation for polymorphism and advanced OOP design.
